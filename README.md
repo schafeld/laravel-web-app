@@ -52,3 +52,31 @@ laravel new laravel-web-app
 # or
 npm run dev
 ```
+
+### Create new controller
+
+```bash
+php artisan make:controller UserController
+```
+
+### Create new model
+
+```bash
+php artisan make:model User
+```
+
+or with migration
+
+```bash
+# php artisan make:model User -m
+# or
+php artisan migrate
+```
+
+### Fill database with data
+
+```bash
+# php artisan tinker
+# or
+php artisan db:seed
+```
