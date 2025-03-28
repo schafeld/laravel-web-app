@@ -31,3 +31,24 @@ open http://localhost:8000/php-info.php
 
 open http://localhost:8000/?name=Olli
 ```
+
+## Laravel
+
+### Create new Laravel project
+
+```bash
+# composer create-project --prefer-dist laravel/laravel laravel-web-app
+# or
+laravel new laravel-web-app
+
+```
+
+### Start Laravel server
+
+```bash
+# php artisan serve
+# or
+# php -S localhost:8000 -t public
+# or
+npm run dev
+```
